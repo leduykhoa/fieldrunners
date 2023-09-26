@@ -1,0 +1,1 @@
+<projectile_lightning image="projectile_lightning.png" type="bolt" displayTime="0.5" damageType="electricalShock" effect="flash" effectDuration="0.5" impactSound="lightning_zap" impactSoundVolume="1.0" impactSoundPitchVariance="0.3" impactSoundVolumeVariance="0.1"/>

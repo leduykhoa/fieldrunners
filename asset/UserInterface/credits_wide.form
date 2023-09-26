@@ -1,0 +1,5 @@
+<credits_wide image="about_screen.png" orientation="landscape" type="popup" width="1.0" height="1.0">
+	<Buttons>
+		<X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" centerx="0.926" centery="0.071" width="0.13" height="0.17"/>
+	</Buttons>
+</credits_wide>

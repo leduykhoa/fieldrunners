@@ -1,0 +1,8 @@
+<help_03_wide image="help_towers_02.png" orientation="landscape" type="popup" width="1.0" height="1.0">
+  <Buttons>
+    <Back releaseSelector="onButtonReleaseBack:withTouches:withEvent:" pressedImage="button_selection_vertical.png" centerx="0.076" centery="0.535" width="0.2525" height="0.41"/>
+    <Next releaseSelector="onButtonReleaseNext:withTouches:withEvent:" pressedImage="button_selection_vertical.png" centerx="0.928" centery="0.535" width="0.2525" height="0.41"/>
+    <X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" centerx="0.953" centery="0.060" width="0.13" height="0.17"/>
+  </Buttons>
+</help_03_wide>
+

@@ -1,0 +1,1 @@
+<heavy_bike sprite="unit_heavy_bike.asc" health="300" healthBarOffset="-30.0" speed="2.5" score="350" resources="1" damage="1" movementSound="unit_heavy_bike_move_loop" movementSoundVolume="1.0" deathSoundVolume="1.0" deathSound="unit_heavy_soldier_death" />

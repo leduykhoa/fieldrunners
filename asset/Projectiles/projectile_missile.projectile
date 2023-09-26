@@ -1,0 +1,2 @@
+<projectile_missile sprite="projectile_missile.asc" type="bullet" speed="145.0" damageType="explosiveImpact" particleSystem="fx_smoke" impactSound="explosion" impactParticleSystemEx="explosion" impactSoundPitchVariance="0.4" impactSoundVolumeVariance="0.1" impactSoundVolume="0.7" launchSound="tower_rocket_fire" launchSoundVolume="1.0"/>
+

@@ -1,0 +1,7 @@
+<FlameTower sprite="tower_flame.asc" icon="icon_flame_tower.png" disabledIcon="icon_flame_tower_disabled.png">
+   <TechLevels>
+      <Level1 minDamage="400" maxDamage="400" fieldOfView="60.0" fireWhenEnemyEnters="attackRange" projectile="projectile_flame" attackRadius="72.0" fireDisplayTime="0.31" turnSpeed="270.0" cost="50"/>
+      <Level2 minDamage="800" maxDamage="800" fieldOfView="60.0" fireWhenEnemyEnters="attackRange" projectile="projectile_flame" attackRadius="72.0" fireDisplayTime="0.31" turnSpeed="290.0" cost="40"/>
+      <Level3 minDamage="1200" maxDamage="1200" fieldOfView="60.0" fireWhenEnemyEnters="attackRange" projectile="projectile_flame" attackRadius="72.0" fireDisplayTime="0.31" turnSpeed="310.0" cost="40"/>
+   </TechLevels>
+</FlameTower>

@@ -1,0 +1,8 @@
+<game_type_wide image="game_type.png" orientation="landscape" type="popup" width="1.0" height="1.0">
+	<Buttons>
+		<Single releaseSelector="onButtonReleaseSingle:withTouches:withEvent:" pressedImage="button_selection_horizontal.png" centerx="0.490" centery="0.373" width="0.650" height="0.260"/>
+		<Multi  releaseSelector="onButtonReleaseMulti:withTouches:withEvent:"  pressedImage="button_selection_horizontal.png" centerx="0.490" centery="0.575" width="0.650" height="0.260"/>
+		<X      releaseSelector="onButtonReleaseX:withTouches:withEvent:"      pressedImage="button_selection_square.png"     centerx="0.797" centery="0.185" width="0.125" height="0.160"/>
+	</Buttons>
+</game_type_wide>
+

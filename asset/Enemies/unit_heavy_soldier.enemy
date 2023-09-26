@@ -1,0 +1,1 @@
+<heavy_soldier sprite="unit_heavy_soldier.asc" health="150" healthBarOffset="-28.0" speed="1.9" score="150" resources="2" damage="1" renderFirstUponDeath="yes" deathSoundVolume="1.0" deathSound="unit_heavy_soldier_death" movementSound="unit_soldier_move_loop" movementSoundVolume="1.0"/>

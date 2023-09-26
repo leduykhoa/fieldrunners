@@ -1,0 +1,1 @@
+<blimp sprite="unit_blimp.asc" health="60000" healthBarOffset="-53.0" speed="0.25" score="10000" resources="40" damage="1" type="air" deathParticleSystemEx="explosion_blimp" movementSound="unit_blimp_move_loop" movementSoundVolume="1.0"  deathSound="unit_blimp_death"/>

@@ -1,0 +1,2 @@
+<fx_ice image="fx_ice.png" blendingMode="alphaAdd" color="0x8888FFFF" lifetime="0.7" emissionRate="1" lifetimeVariance="0.0" 
+scale="110.0" growthRate="200" velocity="0.0" minAngularVelocity="-0.01" maxAngularVelocity="0.01"/>

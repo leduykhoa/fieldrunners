@@ -1,0 +1,7 @@
+<PlasmaTower sprite="tower_plasma.asc" icon="icon_plasma_tower.png" disabledIcon="icon_plasma_tower_disabled.png">
+   <TechLevels>
+		<Level1 minDamage="300" 	maxDamage="300"  	minDamage2="1200" 	maxDamage2="1200"  	fieldOfView="360.0" reloadSpeed="2.0" reloadSpeed2="6.0" attackRadius="120.0" cost="60" projectile="projectile_plasma" projectile2="projectile_plasma_special" spawnProjectileParticleSystemEx="fx_plasma_l1" launchProjectileParticleSystemEx="fx_plasma_l1_attack" launchProjectileParticleSystemEx2="fx_plasma_special_attack"/>
+		<Level2 minDamage="600" 	maxDamage="600" 	minDamage2="2400" 	maxDamage2="2400" 	fieldOfView="360.0" reloadSpeed="2.0" reloadSpeed2="6.0" attackRadius="120.0" cost="45" projectile="projectile_plasma" projectile2="projectile_plasma_special" spawnProjectileParticleSystemEx="fx_plasma_l2" launchProjectileParticleSystemEx="fx_plasma_l1_attack" launchProjectileParticleSystemEx2="fx_plasma_special_attack"/>
+		<Level3 minDamage="900" 	maxDamage="900" 	minDamage2="3600" 	maxDamage2="3600" 	fieldOfView="360.0" reloadSpeed="2.0" reloadSpeed2="6.0" attackRadius="120.0" cost="45" projectile="projectile_plasma" projectile2="projectile_plasma_special" spawnProjectileParticleSystemEx="fx_plasma_l3" launchProjectileParticleSystemEx="fx_plasma_l1_attack" launchProjectileParticleSystemEx2="fx_plasma_special_attack"/>
+   </TechLevels>
+</PlasmaTower>

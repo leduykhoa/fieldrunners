@@ -1,0 +1,16 @@
+<GooTower sprite="tower_goo.asc" icon="icon_goo_tower.png" disabledIcon="icon_goo_tower_disabled.png">
+
+   <TechLevels>
+
+      <Level1 minDamage="0" maxDamage="0" fieldOfView="60.0" reloadSpeed="2.0" attackRadius="90.0" turnSpeed="270.0" cost="10" projectile="projectile_goo"/>
+
+      <Level2 minDamage="0" maxDamage="0" fieldOfView="60.0" reloadSpeed="2.0" attackRadius="90.0" turnSpeed="270.0" cost="5" projectile="projectile_goo"/>
+
+      <Level3 minDamage="0" maxDamage="0" fieldOfView="60.0" reloadSpeed="2.0" attackRadius="90.0" turnSpeed="270.0" cost="5" projectile="projectile_goo"/>
+
+   </TechLevels>
+
+</GooTower>
+
+
+

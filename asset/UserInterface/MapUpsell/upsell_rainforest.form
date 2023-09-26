@@ -1,0 +1,6 @@
+<upsell_crossroads image="MapUpsell/rainforest.png" orientation="landscape" shadowImage="shadow_menu.png" type="popup" width="1.0" height="1.0">
+  <Buttons>
+    <Buy releaseSelector="onButtonReleaseBuy:withTouches:withEvent:" centerx="0.676" centery="0.793" width="0.218" height="0.13"/>
+    <No releaseSelector="onButtonReleaseCancel:withTouches:withEvent:" centerx="0.432" centery="0.808" width="0.16" height="0.104"/>
+  </Buttons>
+</confirm_new_game_wide>

@@ -1,0 +1,1 @@
+<bike sprite="unit_icebike.asc" health="200" healthBarOffset="-25.0" speed="3.0" score="250" resources="1" damage="1" movementSound="unit_bike_move_loop" movementSoundVolume="1.0" deathSoundVolume="1.0" deathSound="unit_soldier_death" />

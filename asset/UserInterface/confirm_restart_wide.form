@@ -1,0 +1,6 @@
+<confirm_restart_wide image="restart_dialog.png" orientation="landscape" type="popup" width="0.6279" height="0.4193">
+   <Buttons>
+	  <Yes releaseSelector="onButtonReleaseYes:withTouches:withEvent:" pressedImage="button_selection_horizontal.png" centerx="0.394" centery="0.499" width="0.22" height="0.24"/>
+	  <No releaseSelector="onButtonReleaseNo:withTouches:withEvent:" pressedImage="button_selection_horizontal.png" centerx="0.604" centery="0.499" width="0.22" height="0.24"/>
+   </Buttons>
+</confirm_restart_wide>

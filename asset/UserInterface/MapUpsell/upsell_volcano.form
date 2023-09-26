@@ -1,0 +1,6 @@
+<upsell_crossroads image="MapUpsell/volcano.png" orientation="landscape" shadowImage="shadow_menu.png" type="popup" width="1.0" height="1.0">
+  <Buttons>
+    <Buy releaseSelector="onButtonReleaseBuy:withTouches:withEvent:" centerx="0.6835" centery="0.713" width="0.235" height="0.118"/>
+    <No releaseSelector="onButtonReleaseCancel:withTouches:withEvent:" centerx="0.428" centery="0.724" width="0.136" height="0.092"/>
+  </Buttons>
+</confirm_new_game_wide>

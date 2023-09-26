@@ -1,0 +1,51 @@
+<scores_wide image="scores_Local_wide.png" orientation="landscape" type="popup" openSelector="onFormOpen" closeSelector="onFormClose" width="1.0" height="1.0">
+	<Buttons>
+		<X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" expandHitRegion="-0.02" centerx="0.953" centery="0.058" width="0.1099" height="0.1392"/>
+		<ArrowLeft  releaseSelector="onButtonReleaseArrowRight:withTouches:withEvent:"  pressedImage="arrow_left.png" expandHitRegion="0.045" centerx="0.05371" centery="0.8697" width="0.06445" height="0.17447"/>
+		<ArrowRight releaseSelector="onButtonReleaseArrowLeft:withTouches:withEvent:" pressedImage="arrow_right.png" expandHitRegion="0.045" centerx="0.950" centery="0.875" width="0.06445" height="0.17447"/>
+		<Local releaseSelector="onButtonReleaseLocal:withTouches:withEvent:" expandHitRegion="-0.045" centerx="0.203" centery="0.135" width="0.3008" height="0.1823"/>
+		<Global releaseSelector="onButtonReleaseGlobal:withTouches:withEvent:" expandHitRegion="-0.045" centerx="0.484" centery="0.135" width="0.3711" height="0.1823"/>
+		<Friends releaseSelector="onButtonReleaseFriends:withTouches:withEvent:" expandHitRegion="-0.045" centerx="0.7998" centery="0.135" width="0.4316" height="0.1823"/>
+
+		<NavUp releaseSelector="onButtonReleasePageUp:withTouches:withEvent:" pressedImage="arrow_up_highlight.png" expandHitRegion="-0.02" centerx="0.9678" centery="0.3568" width="0.08454" height="0.1373"/>
+		<NavDown releaseSelector="onButtonReleasePageDown:withTouches:withEvent:" pressedImage="arrow_down_highlight.png" expandHitRegion="-0.02" centerx="0.9663" centery="0.5404" width="0.08454" height="0.1373"/>
+		<NavBottom releaseSelector="onButtonReleaseBottomPage:withTouches:withEvent:" pressedImage="arrow_down_jump_highlight2.png" expandHitRegion="-0.02" centerx="0.9648" centery="0.6263" width="0.05804" height="0.09189"/>
+		<NavTop releaseSelector="onButtonReleaseTopPage:withTouches:withEvent:" pressedImage="arrow_up_jump_highlight2.png" expandHitRegion="-0.02" centerx="0.96875" centery="0.2734" width="0.05804" height="0.09189"/>
+		<NavHome releaseSelector="onButtonReleaseHome:withTouches:withEvent:" pressedImage="arrow_hilight.png" expandHitRegion="-0.02" centerx="0.9668" centery="0.4453" width="0.084" height="0.112"/>
+
+		<Classic releaseSelector="onButtonReleaseClassic:withTouches:withEvent:" centerx="0.2314" centery="0.7921" width="0.3496" height="0.1659"/>
+		<Extended releaseSelector="onButtonReleaseExtended:withTouches:withEvent:" centerx="0.4990" centery="0.7921" width="0.4185" height="0.1659"/>
+		<Endless releaseSelector="onButtonReleaseEndless:withTouches:withEvent:" centerx="0.7656" centery="0.7921" width="0.3722" height="0.1659"/>
+	</Buttons>
+
+	<Overlays>
+		<MultiplayerOverlay	image="overlay_50_100.png" centerx="0.374" centery="0.7740" width="0.4963" height="0.04659"/>
+		
+		<ClassicSelectedOverlay image="button_selection_horizontal.png"	centerx="0.2314" centery="0.7721" width="0.3496" height="0.1659"/>
+		<ExtendedSelectedOverlay image="button_selection_horizontal.png"	centerx="0.4990" centery="0.7721" width="0.4185" height="0.1659"/>
+		<EndlessSelectedOverlay image="button_selection_horizontal.png" centerx="0.7656" centery="0.7721" width="0.3722" height="0.1659"/>
+		
+		<MapSelectionBox centerx="0.5"					centery="0.877" width="0.805" height="0.10"/>
+		<Map01 image="grasslands_icon.png"				centerx="0.21815" centery="0.370" width="0.19" height="0.1879"/>
+		<Map02 image="crossroads_icon.png"				centerx="0.41100" centery="0.370" width="0.19" height="0.1879"/>
+		<Map03 image="drylands_icon.png"				centerx="0.60500" centery="0.370" width="0.19" height="0.1879"/>
+		<Map04 image="skyway_icon.png"		  			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<Map05 image="frostbite_icon.png"	  			centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<Map06 image="cave_icon.png"	  				centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<Map07 image="rainforest_icon.png"	  			centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+		<Map08 image="volcano_icon.png"					centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>	
+		<Map09 image="rainforestMP_icon.png"	  		centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+		<Map10 image="volcanoMP_icon.png"				centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		
+		<Hourglass image="hourglass.png" centerx="0.5" centery="0.45" color="0xFFFFFF00"/>
+		<NavUpDisabled image="arrow_up_disabled.png" centerx="0.9677" centery="0.35677" width="0.06022" height="0.1149" color="0xFFFFFF00"/>
+		<NavUpJumpDisabled image="arrow_up_disabled.png" centerx="0.9677" centery="0.2808" width="0.06022" height="0.1149" color="0xFFFFFF00"/>
+		<NavDownDisabled image="arrow_down_disabled.png" centerx="0.9677" centery="0.5390" width="0.06022" height="0.1149" color="0xFFFFFF00"/>
+		<NavDownJumpDisabled image="arrow_down_disabled.png" centerx="0.9657" centery="0.6157" width="0.06022" height="0.1149" color="0xFFFFFF00"/>
+		
+		<NavHomeDisabled image="hud_target_disabled.png" centerx="0.9677" centery="0.4479" width="0.0547" height="0.0729" color="0xFFFFFF00"/>
+		
+		
+	</Overlays>
+
+</scores_wide>

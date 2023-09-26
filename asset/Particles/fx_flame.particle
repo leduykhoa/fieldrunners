@@ -1,0 +1,1 @@
+<fx_flame image="fx_flame.png" alphaAdditiveImage="fx_flame_add.png" blendingMode="alpha" lifetime="0.8" emissionRate="25" lifetimeVariance="0.06" scale="75.0" growthRate="9" velocity="60.0"/>

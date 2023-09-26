@@ -1,0 +1,1 @@
+<jeep sprite="unit_cartempty01.asc" health="650" healthBarOffset="-33.0" rearThreshold = "0.9" frontThreshold = "0.1" speed="2.0" score="600" resources="0" damage="0" isFollower="yes" deathSound="unit_jeep_death"/>

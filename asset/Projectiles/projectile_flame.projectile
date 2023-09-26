@@ -1,0 +1,7 @@
+<projectile_flame type="spray" displayTime="0.5" effect="burn" effectDuration="0.5" particleSystem="fx_flame" launchSound="tower_flamethrower_attack_loop" launchSoundVolume="1.0">
+   <TechLevels>
+	  <Level1 effectColor="0x800000FF"/>
+	  <Level2 effectColor="0x800000FF"/>
+      <Level3 effectColor="0x800000FF"/>
+   </TechLevels>
+</projectile_flame>

@@ -1,0 +1,12 @@
+<map_selection_wide image="map_selection_dialog.png" shadowImage="shadow_menu.png" orientation="landscape" type="popup" width="0.929167" height="0.853125">
+  <Buttons>
+    <Map01 image="grasslands_icon.png"	                                           pressedUnderlayImage="icon_select.png" releaseSelector="onButtonReleaseMap:withTouches:withEvent:" clickSound="UI_button" clickSoundVolume="1.0" centerx="0.21815" centery="0.370" width="0.19358" height="0.21647"/>
+    <Map02 image="crossroads_icon.png"	disabledImage="crossroads_icon_locked.png" pressedUnderlayImage="icon_select.png" releaseSelector="onButtonReleaseMap:withTouches:withEvent:" clickSound="UI_button" clickSoundVolume="1.0" centerx="0.41100" centery="0.370" width="0.19358" height="0.21647"/>
+    <Map03 image="drylands_icon.png"		disabledImage="drylands_icon_locked.png"   pressedUnderlayImage="icon_select.png" releaseSelector="onButtonReleaseMap:withTouches:withEvent:" clickSound="UI_button" clickSoundVolume="1.0" centerx="0.60500" centery="0.370" width="0.19358" height="0.21647"/>
+    <Map04 image="skyway_icon.png"		  disabledImage="skyway_icon_locked.png"     pressedUnderlayImage="icon_select.png" releaseSelector="onButtonReleaseMap:withTouches:withEvent:" clickSound="UI_button" clickSoundVolume="1.0" centerx="0.21815" centery="0.586" width="0.19358" height="0.21647"/>
+		<Map05 image="frostbite_icon.png"	  disabledImage="frostbite_icon_locked.png"  pressedUnderlayImage="icon_select.png" releaseSelector="onButtonReleaseMap:withTouches:withEvent:" clickSound="UI_button" clickSoundVolume="1.0" centerx="0.41100" centery="0.586" width="0.19358" height="0.21647"/>
+		<X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" centerx="0.92" centery="0.125" width="0.13" height="0.17"/>
+		<Start releaseSelector="onButtonReleaseStart:withTouches:withEvent:" pressedImage="button_selection_horizontal.png" centerx="0.507" centery="0.87" width="0.282" height="0.17"/>
+	</Buttons>
+</map_selection_wide>
+

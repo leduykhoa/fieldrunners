@@ -1,0 +1,65 @@
+{
+    "ads": [
+        {
+            "type": "imagemap",
+            "imageurl": "bar/rainforest.png",
+            "permissions": ["rainforest", "cave", "volcano"],
+            "size": [440, 887],
+            "map": [
+                {
+                    "alt": "Mudslide",
+                    "coords": [105, 365, 314, 520],
+                    "item": "rainforest"
+                },
+                {
+                    "alt": "Crystal Caves",
+                    "coords": [105, 540, 314, 660],
+                    "item": "cave"
+                },
+                {
+                    "alt": "Lava Flow",
+                    "coords": [105, 660, 314, 860],
+                    "item": "volcano"
+                }
+            ]
+        },
+        {
+            "type": "imagemap",
+            "imageurl": "bar/fieldrunners.png",
+            "permissions": ["os"],
+            "size": [435, 860],
+            "map": [
+                {
+                    "alt": "iPhone",
+                    "coords": [88, 249, 326, 400],
+                    "target": "_blank",
+                    "href": "http://itunes.apple.com/us/app/fieldrunners/id292421271?mt=8",
+                    "stats": {
+                        "type": "Outbound Links",
+                        "path": "itunes.com/iPhone/fieldrunners"
+                    }
+                },
+                {
+                    "alt": "Android",
+                    "coords": [88, 401, 342, 567],
+                    "target": "_blank",
+                    "href": "https://market.android.com/details?id=com.subatomicstudios&referrer=utm_source%3DFR.com%26utm_medium%3Dtext%26utm_campaign%3DSiteToAM",
+                    "stats": {
+                        "type": "Outbound Links",
+                        "path": "market.android/fieldrunners"
+                    }
+                },
+                {
+                    "alt": "iPad",
+                    "coords": [88, 568, 342, 743],
+                    "target": "_blank",
+                    "href": "http://itunes.apple.com/us/app/fieldrunners-for-ipad/id364204209?mt=8",
+                    "stats": {
+                        "type": "Outbound Links",
+                        "path": "itunes.com/iPad/fieldrunners"
+                    }
+                }
+            ]
+        }
+    ]
+}

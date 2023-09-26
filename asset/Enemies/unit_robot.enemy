@@ -1,0 +1,1 @@
+<robot sprite="unit_robot.asc" health="30000" healthBarOffset="-42.0" speed="1.0" score="4000" resources="20" damage="1" deathParticleSystemEx="explosion_tank" movementSoundVolume="1.0" movementSound="unit_robot_move2_loop" deathSound="unit_jeep_death" />

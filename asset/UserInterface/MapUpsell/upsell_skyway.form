@@ -1,0 +1,6 @@
+<upsell_crossroads image="MapUpsell/skyway.png" orientation="landscape" shadowImage="shadow_menu.png" type="popup" width="1.0" height="1.0">
+  <Buttons>
+    <Buy releaseSelector="onButtonReleaseBuy:withTouches:withEvent:" centerx="0.687" centery="0.86" width="0.234" height="0.148"/>
+    <No releaseSelector="onButtonReleaseCancel:withTouches:withEvent:" centerx="0.4125" centery="0.875" width="0.173" height="0.118"/>
+  </Buttons>
+</confirm_new_game_wide>

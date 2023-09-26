@@ -1,0 +1,7 @@
+<projectile_poison sprite="projectile_poison.asc" type="bullet" speed="170.0" effect="poison" effectDuration="4.2" impactSound="poison_impact" impactSoundVolume="1.0" launchSound="poison_launch" launchSoundVolume="1.0">
+	<TechLevels>
+      <Level1 effectIntensity="150" effectColor="0xFF00FFFF"/>
+      <Level2 effectIntensity="300" effectColor="0xFF00FFFF"/>
+      <Level3 effectIntensity="450" effectColor="0xFF00FFFF"/>
+   </TechLevels>
+</projectile_poison>

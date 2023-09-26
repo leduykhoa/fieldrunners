@@ -1,0 +1,7 @@
+<MortarTower sprite="tower_mortar.asc" icon="icon_mortar_tower.png" disabledIcon="icon_mortar_tower_disabled.png" attackSound="tower_mortar_attack">
+   <TechLevels>
+      <Level1 minDamage="1300" maxDamage="1300" fieldOfView="360.0" reloadSpeed="2.5" projectileSpawnDelay="0.2" attackRadius="145.0" minAttackRadius="75.0" cost="120" projectile="projectile_mortar" splashDamageRange="62.0" splashDamageModifier="1.0" launchProjectileParticleSystemEx="mortar_fire"/>
+      <Level2 minDamage="2600" maxDamage="2600" fieldOfView="360.0" reloadSpeed="2.5" projectileSpawnDelay="0.2" attackRadius="145.0" minAttackRadius="75.0" cost="90" projectile="projectile_mortar" splashDamageRange="62.0" splashDamageModifier="1.0" launchProjectileParticleSystemEx="mortar_fire"/>
+      <Level3 minDamage="3900" maxDamage="3900" fieldOfView="360.0" reloadSpeed="2.5" projectileSpawnDelay="0.2" attackRadius="145.0" minAttackRadius="75.0" cost="90" projectile="projectile_mortar" splashDamageRange="62.0" splashDamageModifier="1.0" launchProjectileParticleSystemEx="mortar_fire"/>
+   </TechLevels>
+</MortarTower>

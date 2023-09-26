@@ -1,0 +1,7 @@
+<projectile_goo sprite="projectile_goo.asc" type="bullet" speed="170.0" effect="slow" effectDuration="2.2" impactSound="goo_impact" impactSoundVolume="1.0" launchSound="goo_launch" launchSoundVolume="1.0">
+	<TechLevels>
+      <Level1 effectIntensity="0.35" effectColor="0xB6FD12FF"/>
+      <Level2 effectIntensity="0.5"	 effectColor="0xB6FD12FF"/>
+      <Level3 effectIntensity="0.65" effectColor="0xB6FD12FF"/>
+   </TechLevels>
+</projectile_goo>

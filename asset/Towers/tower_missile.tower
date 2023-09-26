@@ -1,0 +1,8 @@
+<MissileTower sprite="tower_missile.asc" icon="icon_missile_tower.png" disabledIcon="icon_missile_tower_disabled.png">
+   <TechLevels>
+      <Level1 minDamage="105" maxDamage="105" fieldOfView="60.0" reloadSpeed="1.0" attackRadius="120.0" cost="20" turnSpeed="270.0" projectile="projectile_missile" splashDamageRange="32.0" splashDamageModifier="0.5"/>
+      <Level2 minDamage="195" maxDamage="195" fieldOfView="60.0" reloadSpeed="1.0" attackRadius="120.0" cost="15" turnSpeed="270.0" projectile="projectile_missile" splashDamageRange="32.0" splashDamageModifier="0.5"/>
+      <Level3 minDamage="285" maxDamage="285" fieldOfView="60.0" reloadSpeed="1.0" attackRadius="120.0" cost="15" turnSpeed="270.0" projectile="projectile_missile" splashDamageRange="32.0" splashDamageModifier="0.5"/>
+   </TechLevels>
+</MissileTower>
+

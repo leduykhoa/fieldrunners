@@ -1,0 +1,36 @@
+<game_hud_wide orientation="landscape" type="overlay">
+	<Buttons>
+		<BuildParent01 centerx="0.0" centery="0.0" width="0.0" height="0.0">
+			<Tower01 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+			<Tower02 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+			<Tower03 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+			<Tower04 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+			<Tower05 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+			<Tower06 fadeAnimation="yes" minFadeOpacity="0.2" translateAnimation="no" scaleWhenPressed="yes" pressSelector="onButtonPressBuildTower:withTouches:withEvent:" releaseSelector="onButtonReleaseBuildTower:withTouches:withEvent:" exitSelector="onButtonExitBuildTower:withTouches:withEvent:" centerx="0.95" centery="0.95" width="0.0857" height="0.10054" labelOffsetX="0.01" labelOffsetY="0.015" labelAlignment="center" labelFontSize="0.6"/>
+		</BuildParent01>
+		<ModifyTower centerx="0.0" centery="0.0" width="0.11875" height="0.178125" scaleWhenPressed="yes">
+			<SellTower image="icon_sell.png" scaleWhenPressed="yes" animationType="scale" releaseSelector="onButtonReleaseSellTower:withTouches:withEvent:" labelOffsetX="0.01" labelOffsetY="0.015" labelFontSize="0.6" centerx="-0.066" centery="0.0" width="0.0857" height="0.10054" labelAlignment="center"/>
+			<UpgradeTower image="icon_upgrade.png" scaleWhenPressed="yes" animationType="scale" disabledImage="icon_upgrade_disabled.png" releaseSelector="onButtonReleaseUpgradeTower:withTouches:withEvent:" labelOffsetX="0.01" labelOffsetY="0.015" labelFontSize="0.6" centerx="0.075" centery="0.0" width="0.0857" height="0.10054" labelAlignment="center"/>
+		</ModifyTower>
+		<Configure image="hud_configure.png" clickSound="UI_button2" clickSoundVolume="0.2" scaleWhenPressed="yes" releaseSelector="onButtonReleaseConfigure:withTouches:withEvent:" centerx="0.2" centery="0.95" width="0.0625" height="0.0833"/>
+		<FastForward image="hud_fast_forward_disabled.png" toggleImage="hud_fast_forward.png" scaleWhenPressed="yes" releaseSelector="onButtonReleaseFastForward:withTouches:withEvent:" centerx="0.125" centery="0.95" width="0.0625" height="0.0833"/>
+		<Audio image="hud_audio_on.png" toggleImage="hud_audio_off.png" scaleWhenPressed="yes" releaseSelector="onButtonReleaseAudio:withTouches:withEvent:" centerx="0.28" centery="0.95" width="0.0625" height="0.0833"/>
+		<Save image="hud_health.png" scaleWhenPressed="yes" releaseSelector="onButtonReleaseSave:withTouches:withEvent:" centerx="0.26" centery="0.809375" width="0.0625" height="0.0833"/>
+		<TutorialParent centerx="0.0" centery="0.0" width="0.0" height="0.0">
+			<TutorialTip01 image="hud_text_bubble.png" fadeAnimation="yes" translateAnimation="no" centerx="0.5" centery="0.5" />
+		</TutorialParent>
+		<AchievementParent centerx="0.0" centery="0.0" width="0.0" height="0.0">
+			<Achievement image="achievement_box.png" centerx="0.5" centery="0.18" fadeAnimation="yes" translateAnimation="no" labelOffsetX="0.0" labelOffsetY="-0.019" labelFont="font_gold" labelFontSize="1.0" labelAlignment="center" labelColor="0xFFFFFFFF" width="0.6328" height="0.2604"/>
+			<AchievementIcon fadeAnimation="yes" translateAnimation="no" centerx="0.287" centery="0.181"/>
+		</AchievementParent>
+		<Playback image="hud_pause.png" disabledImage="hud_pause.png" clickSound="UI_button2" clickSoundVolume="0.2" toggleImage="hud_play.png" scaleWhenPressed="yes" releaseSelector="onButtonReleasePlayback:withTouches:withEvent:" centerx="0.059" centery="0.95" width="0.0625" height="0.0833"/>
+	</Buttons>
+  <Overlays>
+		<MoneyIcon image="hud_money.png" centerx="0.03" centery="0.04" width="0.0625" height="0.08333"/>
+		<HealthIcon image="hud_health.png" centerx="0.97" centery="0.04" width="0.0625" height="0.08333"/>
+		<ClockIcon  image="hud_clock.png"  centerx="0.97" centery="0.04" width="0.0625" height="0.08333" isHidden="yes"/>
+		<VictoryText image="text_victory.png" centerx="0.5" centery="0.5" isHidden="yes"/>
+		<DefeatText image="text_defeat.png" centerx="0.5" centery="0.5" isHidden="yes"/>
+		<TimesUpText image="text_timesup.png" centerx="0.5" centery="0.5" isHidden="yes"/>
+	</Overlays>
+</game_hud_wide>

@@ -1,0 +1,1 @@
+<chopper sprite="unit_chopper.asc" health="650" healthBarOffset="-33.0" speed="1.5" score="700" resources="2" damage="1" type="air" deathParticleSystemEx="explosion_chopper" movementSound="unit_helicopter_move_loop" deathSound="unit_helicopter_death" />

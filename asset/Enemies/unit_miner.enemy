@@ -1,0 +1,2 @@
+<light_soldier sprite="unit_miner.asc" health="200" healthBarOffset="-22.0" speed="1.5" score="100" resources="1" damage="1" renderFirstUponDeath="yes" deathSoundVolume="1.0" deathSound="unit_soldier_death" movementSound="unit_soldier_move_loop" movementSoundVolume="1.0"/>
+

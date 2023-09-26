@@ -1,0 +1,1 @@
+<loading_wide image="loading_dialog.png" orientation="landscape" type="popup" width="0.5166" height="0.30078">   <Overlays>  	  <LoadingBar image="loading_bar.png" centerx="0.4995" centery="0.51" width="0.330078" height="0.02404"/>   </Overlays></loading_wide>

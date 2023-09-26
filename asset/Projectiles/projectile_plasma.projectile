@@ -1,0 +1,1 @@
+<projectile_plasma sprite="projectile_plasma.asc" type="plasma" speed="170.0" effect="flash" damageType="explosiveImpact" particleSystemEx="fx_plasma_projectile" effectDuration="0.5" impactSound="laser_zap" impactSoundVolume="1.0" impactParticleSystemEx="fx_plasma_projectile_death" impactSoundPitchVariance="0.3" impactSoundVolumeVariance="0.1"/>

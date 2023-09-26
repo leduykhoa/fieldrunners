@@ -1,0 +1,1 @@
+<jeep sprite="unit_train.asc" health="8000" healthBarOffset="-33.0" frontThreshold="0.10" rearThreshold="0.95" speed="2.0" score="2000" deathAnimationDelay="0.37" resources="20" damage="1" deathParticleSystemEx="explosion_tank" deathSound="unit_jeep_death" movementSound="unit_train_move_loop" movementSoundVolume="0.5" />

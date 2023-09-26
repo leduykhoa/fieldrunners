@@ -1,0 +1,1 @@
+<fx_pipe_smoke image="fx_pipe_smoke.png" blendingMode="alpha" lifetime="4" emissionRate="3.5" lifetimeVariance="0.06" scale="105.0" growthRate=".80" velocity="6.0"/>

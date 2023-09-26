@@ -1,0 +1,6 @@
+<upsell_crossroads image="MapUpsell/drylands.png" orientation="landscape" shadowImage="shadow_menu.png" type="popup" width="1.0" height="1.0">
+  <Buttons>
+    <Buy releaseSelector="onButtonReleaseBuy:withTouches:withEvent:" centerx="0.65771484375" centery="0.8391927083333333" width="0.2080078125" height="0.13151042"/>
+    <No releaseSelector="onButtonReleaseCancel:withTouches:withEvent:" centerx="0.419" centery="0.858" width="0.138" height="0.092"/>
+  </Buttons>
+</confirm_new_game_wide>

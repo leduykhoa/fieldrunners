@@ -1,0 +1,36 @@
+<scores_wide image="scores_more_modes_no_global_friends_wide.png" orientation="landscape" type="popup" openSelector="onFormOpen" closeSelector="onFormClose" width="1.0" height="1.0">
+	<Buttons>
+		<X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" expandHitRegion="-0.02" centerx="0.953" centery="0.058" width="0.1099" height="0.1392"/>
+		<ArrowLeft  releaseSelector="onButtonReleaseArrowRight:withTouches:withEvent:" pressedImage="arrow_left.png"  centerx="0.05371" centery="0.8697" width="0.05957" height="0.16146"/>
+		<ArrowRight releaseSelector="onButtonReleaseArrowLeft:withTouches:withEvent:"  pressedImage="arrow_right.png" centerx="0.950"   centery="0.875"  width="0.05957" height="0.16146"/>
+
+		<Classic     releaseSelector="onButtonReleaseClassic:withTouches:withEvent:"     centerx="0.090" centery="0.775" width="0.125" height="0.04"/>
+		<Extended    releaseSelector="onButtonReleaseExtended:withTouches:withEvent:"    centerx="0.225" centery="0.775" width="0.125" height="0.04"/>
+		<Endless     releaseSelector="onButtonReleaseEndless:withTouches:withEvent:"     centerx="0.365" centery="0.775" width="0.125" height="0.04"/>
+		<SuddenDeath releaseSelector="onButtonReleaseSuddenDeath:withTouches:withEvent:" centerx="0.500" centery="0.775" width="0.125" height="0.04"/>
+		<TimeTrial   releaseSelector="onButtonReleaseTimeTrial:withTouches:withEvent:"   centerx="0.635" centery="0.775" width="0.125" height="0.04"/>
+		<TowerCombo1 releaseSelector="onButtonReleaseTowerCombo1:withTouches:withEvent:" centerx="0.770" centery="0.775" width="0.125" height="0.04"/>
+		<TowerCombo2 releaseSelector="onButtonReleaseTowerCombo2:withTouches:withEvent:" centerx="0.910" centery="0.775" width="0.125" height="0.04"/>
+	</Buttons>
+
+	<Overlays>
+		<ClassicSelectedOverlay     image="button_selection_horizontal.png" centerx="0.09" centery="0.774" width="0.2" height="0.11"/>
+		<ExtendedSelectedOverlay    image="button_selection_horizontal.png" centerx="0.227" centery="0.774" width="0.2" height="0.11"/>
+		<EndlessSelectedOverlay     image="button_selection_horizontal.png" centerx="0.364" centery="0.774" width="0.2" height="0.11"/>
+		<SuddenDeathSelectedOverlay image="button_selection_horizontal.png" centerx="0.501" centery="0.774" width="0.2" height="0.11"/>
+		<TimeTrialSelectedOverlay   image="button_selection_horizontal.png" centerx="0.637" centery="0.774" width="0.2" height="0.11"/>
+		<TowerCombo1SelectedOverlay image="button_selection_horizontal.png" centerx="0.774" centery="0.774" width="0.2" height="0.11"/>
+		<TowerCombo2SelectedOverlay image="button_selection_horizontal.png" centerx="0.91" centery="0.774" width="0.2" height="0.11"/>
+
+		<MapSelectionBox centerx="0.5"					centery="0.877" width="0.805" height="0.10"/>
+		<Map01 image="grasslands_icon.png"				centerx="0.21815" centery="0.370" width="0.19" height="0.1879"/>
+		<Map02 image="crossroads_icon.png"				centerx="0.41100" centery="0.370" width="0.19" height="0.1879"/>
+		<Map03 image="drylands_icon.png"				centerx="0.60500" centery="0.370" width="0.19" height="0.1879"/>
+		<Map04 image="skyway_icon.png"		  			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<Map05 image="frostbite_icon.png"	  			centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<Map06 image="cave_icon.png"	  				centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<Map07 image="rainforest_icon.png"	  			centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+		<Map08 image="volcano_icon.png"					centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>	
+	</Overlays>
+
+</scores_wide>

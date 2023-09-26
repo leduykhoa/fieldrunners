@@ -1,0 +1,4 @@
+<tank sprite="unit_tank.asc" health="8000" healthBarOffset="-30.0" speed="1.0" score="1000" resources="10" damage="1" deathParticleSystemEx="explosion_tank" movementSound="unit_tank_move_loop" movementSoundVolume="1.0" deathSound="unit_jeep_death" />
+
+
+

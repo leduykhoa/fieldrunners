@@ -1,0 +1,5 @@
+<hazmat_soldier sprite="unit_firerunner.asc" health="500" healthBarOffset="-22.0" speed="2.0" score="100" resources="5" damage="1" renderFirstUponDeath="yes" deathSoundVolume="1.0" deathSound="unit_soldier_death" movementSound="unit_soldier_move_loop" movementSoundVolume="1.0" >
+   <Immunities>
+      <SlowEffect immuneToEffect="burn"/>
+   </Immunities>
+</hazmat_soldier>

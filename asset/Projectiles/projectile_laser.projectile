@@ -1,0 +1,1 @@
+<projectile_laser image="projectile_laser.png" type="beam" displayTime="0.5" effect="flash" damageType="electricalShock" effectDuration="0.5" impactSound="laser_zap" impactSoundVolume="1.0" impactSoundPitchVariance="0.3" impactSoundVolumeVariance="0.1"/>

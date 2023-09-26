@@ -1,0 +1,26 @@
+<title_screen_wide image="title_screen_wide.png" orientation="landscape" type="background">
+
+	<Buttons>
+
+		<Play releaseSelector="onButtonReleasePlay:withTouches:withEvent:" pressedImage="title_screen_button1_select.png" centerx="0.116" centery="0.883" width="0.258" height="0.165"/>
+
+		<Resume releaseSelector="onButtonReleaseResume:withTouches:withEvent:" pressedImage="title_screen_button2_select.png" centerx="0.306" centery="0.915" width="0.258" height="0.165"/>
+
+		<Scores releaseSelector="onButtonReleaseScores:withTouches:withEvent:" pressedImage="title_screen_button3_select.png" centerx="0.497" centery="0.888" width="0.258" height="0.165"/>
+
+		<Options releaseSelector="onButtonReleaseOptions:withTouches:withEvent:" pressedImage="title_screen_button4_select.png" centerx="0.682" centery="0.913" width="0.258" height="0.165"/>
+		
+		<Help releaseSelector="onButtonReleaseHelp:withTouches:withEvent:" pressedImage="title_screen_button5_select.png" centerx="0.897" centery="0.910" width="0.1738" height="0.1263"/>
+
+    <Credits releaseSelector="onButtonReleaseCredits:withTouches:withEvent:" pressedImage="button_selection_credits.png" centerx="0.5189062" centery="0.03562499" width=".2008817" height="0.06465768"/>
+
+	</Buttons>
+
+	<Overlays>
+
+		<DisabledResume image="disabled_resume.png" centerx="0.309" centery="0.915" width="0.1543" height="0.09505"/>
+
+	</Overlays>
+
+</title_screen_wide>
+

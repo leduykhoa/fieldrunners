@@ -1,0 +1,1 @@
+<jeep sprite="unit_minecart.asc" health="650" healthBarOffset="-33.0" rearThreshold = "0.9" frontThreshold = "0.1" speed="2.0" score="600" resources="2" damage="1" deathSound="unit_jeep_death" movementSound="unit_cart_move_loop" movementSoundVolume="0.5" />

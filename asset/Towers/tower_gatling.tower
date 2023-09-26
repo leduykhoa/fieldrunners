@@ -1,0 +1,8 @@
+<GatlingTower sprite="tower_gatling.asc" icon="icon_gatling_tower.png" disabledIcon="icon_gatling_tower_disabled.png" attackSound="tower_gatling_fire_loop" attackSoundVolume="1.0" >
+   <TechLevels>
+      <Level1 minDamage="43"  maxDamage="43"  continuousDamage="yes" fieldOfView="60.0" attackRadius="72.0" turnSpeed="270.0" fireDisplayTime="0.075" cost="5"/>
+			<Level2 minDamage="86"  maxDamage="86"  continuousDamage="yes" fieldOfView="60.0" attackRadius="72.0" turnSpeed="290.0" fireDisplayTime="0.075" cost="4"/>
+      <Level3 minDamage="129" maxDamage="129" continuousDamage="yes" fieldOfView="60.0" attackRadius="72.0" turnSpeed="310.0" fireDisplayTime="0.075" cost="4"/>
+   </TechLevels>
+</GatlingTower>
+

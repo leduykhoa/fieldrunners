@@ -1,0 +1,1 @@
+<jeep sprite="unit_truck.asc" health="650" healthBarOffset="-33.0" speed="2.0" score="600" resources="2" damage="1" deathParticleSystemEx="explosion_truck" deathSound="unit_jeep_death" movementSound="unit_heavy_bike_move_loop" movementSoundVolume="1.0" />

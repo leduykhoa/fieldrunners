@@ -1,0 +1,56 @@
+<map_configuration_wide image="map_selection_dialog.png" shadowImage="shadow_menu.png" orientation="landscape" type="popup">
+	<Buttons>
+		<Description labelText="" centerx="0.094" centery="0.699" labelFont="font_light" labelFontSize="0.8" labelWidth="0.748" labelHeight="0.126" labelAlignment="left" labelColor="0xFFFF1AFF"/>
+
+		<Easy 			pressSelector="onButtonPressEasy:withTouches:withEvent:" toggleImage="button_selection_modes.png" centerx="0.693" centery="0.630" expandHitRegion="0.0" width="0.082" height="0.0325"/>
+		<Medium 		pressSelector="onButtonPressMedium:withTouches:withEvent:" toggleImage="button_selection_modes.png" centerx="0.781" centery="0.630" expandHitRegion="0.0" width="0.092" height="0.0325"/>
+		<Hard 			pressSelector="onButtonPressHard:withTouches:withEvent:" toggleImage="button_selection_modes.png" centerx="0.871" centery="0.630" expandHitRegion="0.0" width="0.082" height="0.0325"/>
+		<ClassicMode 	pressSelector="onButtonPressClassicMode:withTouches:withEvent:" toggleImage="button_selection_modes.png" expandHitRegion="-0.006" width="0.26171875" height="0.059895" centerx="0.782" centery="0.452" labelText="Classic Mode" labelFont="font_light" labelOffsetY="-0.031" labelFontSize="0.9" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+		<ExtendedMode 	pressSelector="onButtonPressExtendedMode:withTouches:withEvent:" toggleImage="button_selection_modes.png" expandHitRegion="-0.006" width="0.26171875" height="0.059895" centerx="0.782" centery="0.503" labelText="Extended Mode" labelFont="font_light" labelOffsetY="-0.031" labelFontSize="0.9" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+		<EndlessMode 	pressSelector="onButtonPressEndlessMode:withTouches:withEvent:" toggleImage="button_selection_modes.png" expandHitRegion="-0.006" width="0.26171875" height="0.059895" centerx="0.782" centery="0.559" labelText="Endless" labelFont="font_light" labelOffsetY="-0.031" labelFontSize="0.9" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+		
+		<FiftyRoundMode 	pressSelector="onButtonPressClassicMode:withTouches:withEvent:" toggleImage="button_selection_modes.png" expandHitRegion="-0.006" width="0.26171875" height="0.059895" centerx="0.782" centery="0.452" labelText="50 Round" labelFont="font_light" labelOffsetY="-0.031" labelFontSize="0.9" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+		<OneHundredRoundMode 	pressSelector="onButtonPressExtendedMode:withTouches:withEvent:" toggleImage="button_selection_modes.png" expandHitRegion="-0.006" width="0.26171875" height="0.059895" centerx="0.782" centery="0.503" labelText="100 Round " labelFont="font_light" labelOffsetY="-0.031" labelFontSize="0.9" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+		
+		<MapNameLabel labelText="" centerx="0.368" centery="0.138" labelFont="font_gold" labelFontSize="1.2" labelAlignment="center" labelColor="0xFFFF1AFF"/>
+
+		<X releaseSelector="onButtonReleaseX:withTouches:withEvent:" pressedImage="button_selection_square.png" expandHitRegion="-0.02" centerx="0.953" centery="0.058" width="0.1099" height="0.1392"/>
+		<Start releaseSelector="onButtonReleaseStart:withTouches:withEvent:" pressedImage="button_selection_horizontal.png" disabledImage="start_disabled.png" centerx="0.507" centery="0.93" width="0.310" height="0.184"/>
+	</Buttons>
+
+	<Overlays>
+		<MapSelectionBox centerx="0.35840"			centery="0.43424" width="0.53125" height="0.42839"/>
+		<Map01 image="grasslands_icon.png"			centerx="0.21815" centery="0.370" width="0.19" height="0.1879"/>
+		<Map02 image="crossroads_icon.png"			centerx="0.41100" centery="0.370" width="0.19" height="0.1879"/>
+		<Map03 image="drylands_icon.png"			centerx="0.60500" centery="0.370" width="0.19" height="0.1879"/>
+		<Map04 image="skyway_icon.png"		  	centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<Map05 image="frostbite_icon.png"	  	centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<Map06 image="cave_icon.png"			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<Map07 image="rainforest_icon.png"		centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+    <Map08 image="volcano_icon.png"				centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<Map09 image="rainforestMP_icon.png"	  centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+		<Map10 image="volcanoMP_icon.png"				centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		
+		<MapLocked02 image="crossroads_icon_locked.png"			centerx="0.41100" centery="0.370" width="0.19" height="0.1879"/>
+		<MapLocked03 image="drylands_icon_locked.png"			centerx="0.60500" centery="0.370" width="0.19" height="0.1879"/>
+		<MapLocked04 image="skyway_icon_locked.png"		  	centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<MapLocked05 image="frostbite_icon_locked.png"		centerx="0.41100" centery="0.586" width="0.19" height="0.1879"/>
+		<MapLocked06 image="cave_icon_locked.png"			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<MapLocked07 image="rainforest_icon_locked.png"		centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+    <MapLocked08 image="volcano_icon_locked.png"			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+		<MapLocked09 image="rainforest_icon_locked.png"		centerx="0.60500" centery="0.586" width="0.19" height="0.1879"/>
+		<MapLocked10 image="volcano_icon_locked.png"			centerx="0.21815" centery="0.586" width="0.19" height="0.1879"/>
+
+		<MapThumbnail01 image="../Maps/Grasslands/map_thumb_grass.png"		centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail02 image="../Maps/Crossroads/map_thumb_cross.png"		centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail03 image="../Maps/Drylands/map_thumb_drylands.png"		centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail04 image="../Maps/Skyway/map_thumb_sky.png"					centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail05 image="../Maps/Frostbite/map_thumb_frost.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail06 image="../Maps/Cave/map_thumb_cave.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail07 image="../Maps/Rainforest/map_thumb_rain.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+    <MapThumbnail08 image="../Maps/Volcano/map_thumb_volcano.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail09 image="../Maps/Rainforest/map_thumb_rainMP.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+		<MapThumbnail10 image="../Maps/Volcano/map_thumb_volcanoMP.png"			centerx="0.785" 	centery="0.243" width="0.2421875" height="0.2096"/>
+	</Overlays>
+
+</map_configuration_wide>

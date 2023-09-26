@@ -1,0 +1,7 @@
+<LightningTower sprite="tower_lightning.asc" icon="icon_lightning_tower.png" disabledIcon="icon_lightning_tower_disabl.png">
+   <TechLevels>
+      <Level1 minDamage="525"  maxDamage="525"  fieldOfView="360.0" reloadSpeed="1.0" attackRadius="90.0" cost="70" projectile="projectile_lightning"/>
+      <Level2 minDamage="1050" maxDamage="1050" fieldOfView="360.0" reloadSpeed="1.0" attackRadius="90.0" cost="50" projectile="projectile_lightning"/>
+      <Level3 minDamage="1575" maxDamage="1575" fieldOfView="360.0" reloadSpeed="1.0" attackRadius="90.0" cost="50" projectile="projectile_lightning"/>
+   </TechLevels>
+</LightningTower>

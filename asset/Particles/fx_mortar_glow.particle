@@ -1,0 +1,1 @@
+<fx_mortar_glow image="fx_mortar_glow.png" alphaAdditiveImage="fx_mortar_glow_shockwave.png" minInitialOrientation="0.0" maxInitialOrientation="0.0" blendingMode="alphaAdd" lifetime="1.5" emissionRate="1" lifetimeVariance="0.06" scale="110.0" growthRate="20" velocity="0.0"/>

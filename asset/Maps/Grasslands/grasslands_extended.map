@@ -1,0 +1,538 @@
+<Grasslands width="1365" height="1024" tilesAcross="27" tilesDown="21" tileWidth="60" tileHeight="60" offsetX="0" offsetY="0" 
+startingHealth="20" startingResources="15" minBuildTileX="4" minBuildTileY="5" maxBuildTileX="22" maxBuildTileY="15" minVisibleTileX="2" 
+maxVisibleTileX="25" minVisibleTileY="2" maxVisibleTileY="17" initialFocusRegion="west" endlessModeWaveStart="51" endlessModeWaveEnd="100"
+endlessModeHealthModifier="0.0566" showStreamIndicatorArrows="no" musicFile="grasslands">
+
+<Layers>
+<background image="grasslands.png" x="0" y="0" renderOrder="first" blendingMode="none" gridImage="grasslands_grid.png"/>
+<treeLT image="tree_west_gate_overhang.png" x="58" y="295" renderOrder="last" blendingMode="alpha" />
+<treeLB image="tree_west_gate_lower.png" x="0" y="592" renderOrder="last" blendingMode="alpha" />
+<wallRB image="east_gate_overhang.png" x="1277" y="519" renderOrder="last" blendingMode="alpha" />
+</Layers>
+
+  <ParticleSystems>
+	
+    <butterfly1 file="butterfly_blue.fx" x="0.15" y="0.95"/>
+    <butterfly1 file="butterfly_red.fx" x="0.25" y="0.95"/>	
+    <butterfly1 file="butterfly_yellow.fx" x="0.1" y="0.05"/>	
+    <butterfly1 file="butterfly_red.fx" x="0.75" y="0.05"/>	
+	
+</ParticleSystems>
+
+
+	<Towers>
+    <GatlingTower	  	file="tower_gatling.tower"/>
+	  <GooTower		    file="tower_goo.tower"/>
+	  <MissileTower	  	file="tower_missile.tower"/>
+	  <FlameTower		file="tower_flame.tower"/>
+	  <LightningTower	file="tower_lightning.tower"/>
+	  <MortarTower	  	file="tower_mortar.tower"/>
+	</Towers>
+	<Towers1>
+		<GatlingTower	 	file="tower_gatling.tower"/>
+		<GooTower		 	file="tower_goo.tower"/>
+		<PoisonTower	 	file="tower_poison.tower"/>
+		<FlameTower		 	file="tower_flame.tower"/>
+		<LightningTower		file="tower_lightning.tower"/>
+		<MortarTower	  	file="tower_mortar.tower"/>
+	</Towers1>
+	<Towers2>
+		<GatlingTower	  	file="tower_gatling.tower"/>
+		<GooTower		    file="tower_goo.tower"/>
+		<MissileTower	  	file="tower_missile.tower"/>
+		<PoisonTower		file="tower_poison.tower"/>
+		<ShotgunTower		file="tower_shotgun.tower"/>		
+		<LightningTower		file="tower_lightning.tower"/>
+
+	</Towers2>	
+	
+<BlockedTiles>
+<BlockedTile tileX="3" tileY="4" />
+<BlockedTile tileX="4" tileY="4" />
+<BlockedTile tileX="5" tileY="4" />
+<BlockedTile tileX="6" tileY="4" />
+<BlockedTile tileX="7" tileY="4" />
+<BlockedTile tileX="8" tileY="4" />
+<BlockedTile tileX="9" tileY="4" />
+<BlockedTile tileX="10" tileY="4" />
+<BlockedTile tileX="11" tileY="4" />
+<BlockedTile tileX="12" tileY="4" />
+<BlockedTile tileX="13" tileY="4" />
+<BlockedTile tileX="14" tileY="4" />
+<BlockedTile tileX="15" tileY="4" />
+<BlockedTile tileX="16" tileY="4" />
+<BlockedTile tileX="17" tileY="4" />
+<BlockedTile tileX="18" tileY="4" />
+<BlockedTile tileX="19" tileY="4" />
+<BlockedTile tileX="20" tileY="4" />
+<BlockedTile tileX="21" tileY="4" />
+<BlockedTile tileX="22" tileY="4" />
+<BlockedTile tileX="23" tileY="4" />
+<BlockedTile tileX="3" tileY="5" />
+<BlockedTile tileX="23" tileY="5" />
+<BlockedTile tileX="3" tileY="6" />
+<BlockedTile tileX="23" tileY="6" />
+<BlockedTile tileX="3" tileY="7" />
+<BlockedTile tileX="23" tileY="7" />
+<BlockedTile tileX="3" tileY="8" />
+<BlockedTile tileX="23" tileY="8" />
+<BlockedTile tileX="0" tileY="9" />
+<BlockedTile tileX="1" tileY="9" />
+<BlockedTile tileX="2" tileY="9" />
+<BlockedTile tileX="3" tileY="9" />
+<BlockedTile tileX="23" tileY="9" />
+<BlockedTile tileX="24" tileY="9" />
+<BlockedTile tileX="25" tileY="9" />
+<BlockedTile tileX="26" tileY="9" />
+<BlockedTile tileX="0" tileY="12" />
+<BlockedTile tileX="1" tileY="12" />
+<BlockedTile tileX="2" tileY="12" />
+<BlockedTile tileX="3" tileY="12" />
+<BlockedTile tileX="23" tileY="12" />
+<BlockedTile tileX="24" tileY="12" />
+<BlockedTile tileX="25" tileY="12" />
+<BlockedTile tileX="26" tileY="12" />
+<BlockedTile tileX="3" tileY="13" />
+<BlockedTile tileX="23" tileY="13" />
+<BlockedTile tileX="3" tileY="14" />
+<BlockedTile tileX="23" tileY="14" />
+<BlockedTile tileX="3" tileY="15" />
+<BlockedTile tileX="23" tileY="15" />
+<BlockedTile tileX="3" tileY="16" />
+<BlockedTile tileX="4" tileY="16" />
+<BlockedTile tileX="5" tileY="16" />
+<BlockedTile tileX="6" tileY="16" />
+<BlockedTile tileX="7" tileY="16" />
+<BlockedTile tileX="8" tileY="16" />
+<BlockedTile tileX="9" tileY="16" />
+<BlockedTile tileX="10" tileY="16" />
+<BlockedTile tileX="11" tileY="16" />
+<BlockedTile tileX="12" tileY="16" />
+<BlockedTile tileX="13" tileY="16" />
+<BlockedTile tileX="14" tileY="16" />
+<BlockedTile tileX="15" tileY="16" />
+<BlockedTile tileX="16" tileY="16" />
+<BlockedTile tileX="17" tileY="16" />
+<BlockedTile tileX="18" tileY="16" />
+<BlockedTile tileX="19" tileY="16" />
+<BlockedTile tileX="20" tileY="16" />
+<BlockedTile tileX="21" tileY="16" />
+<BlockedTile tileX="22" tileY="16" />
+<BlockedTile tileX="23" tileY="16" />
+</BlockedTiles>
+
+   <Paths>   
+      <WestPathToEastGate>
+	     <SpawnTiles>
+		    <WestPath tileX="0" tileY="10"/>
+		 </SpawnTiles>
+		 <GoalTiles>
+		    <EastGate tileX="26" tileY="10"/>
+			<EastGate tileX="26" tileY="11"/>
+		 </GoalTiles>
+	  </WestPathToEastGate>	    
+	  
+      <WestPathToEastGate2>
+	     <SpawnTiles>
+		    <WestPath2 tileX="0" tileY="11"/>
+		 </SpawnTiles>
+		 <GoalTiles>
+		    <EastGate2 tileX="26" tileY="10"/>
+			<EastGate2 tileX="26" tileY="11"/>
+		 </GoalTiles>
+	  </WestPathToEastGate2>	  	  
+	  
+   </Paths>
+   
+   
+   <Waves>
+
+//0
+
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="1" spawnRate="6.0" healthModifier="0.5" path="WestPathToEastGate" delayStart="0.0"/>
+		<HorizontalStream enemyFile="unit_light_soldier" count="1" spawnRate="6.0" healthModifier="0.5" path="WestPathToEastGate2" delayStart="3.0"/>		
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="5" spawnRate="2.0" healthModifier="0.8" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="5" spawnRate="2.0" healthModifier="0.8" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="7" spawnRate="1.5" healthModifier="1.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="5" spawnRate="3.0" healthModifier="1.5" path="WestPathToEastGate" delayStart="0.0"/>
+			<HorizontalStream enemyFile="unit_light_soldier" count="5" spawnRate="3.0" healthModifier="1.5" path="WestPathToEastGate2" delayStart="1.5"/>	
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="7" spawnRate="1.0" healthModifier="1.2" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="10" spawnRate="0.5" healthModifier="1.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="1.5" healthModifier="2.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="1.5" healthModifier="2.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="5" spawnRate="2.5" healthModifier="2.0" path="WestPathToEastGate2" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_plane" count="2" spawnRate="5.5" healthModifier="1.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+
+	  
+
+//1	  
+
+
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="5" spawnRate="1.2" healthModifier="1.2" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_bike" count="5" spawnRate="1.2" healthModifier="1.2" path="WestPathToEastGate2" delayStart="0.6"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="8" spawnRate="1.5" healthModifier="4.5" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="4" spawnRate="2.0" healthModifier="4.5" path="WestPathToEastGate2" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="15" spawnRate="1.0" healthModifier="4.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="0.5" healthModifier="4.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>   
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="5" spawnRate="1.0" healthModifier="3.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_bike" count="5" spawnRate="1.0" healthModifier="3.0" path="WestPathToEastGate2" delayStart="0.5"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="15" spawnRate="0.5" healthModifier="5.25" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.5" healthModifier="4.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.5" healthModifier="5.25" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="0.5" healthModifier="4.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="2.0" healthModifier="3.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+	  
+//2	  
+	  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.5" healthModifier="6.28" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="15" spawnRate="0.5" healthModifier="6.28" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_heavy_soldier" count="10" spawnRate="1.5" healthModifier="3.28" path="WestPathToEastGate2" delayStart="0.0"/>
+	  </Wave>	  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="0.5" healthModifier="7.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.5" healthModifier="10.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="7" spawnRate="1.0" healthModifier="7.1" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_heavy_bike" count="6" spawnRate="1.0" healthModifier="7.1" path="WestPathToEastGate2" delayStart="0.5"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="25" spawnRate="0.5" healthModifier="8.68" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_plane" count="12" spawnRate="2.0" healthModifier="6.2" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="0.5" healthModifier="10.78" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="1.0" healthModifier="8.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="5">
+		<HorizontalStream enemyFile="unit_tank" count="1" spawnRate="0.5" healthModifier="4.31" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+	    
+//3	  
+
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.5" healthModifier="14.3" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="6" spawnRate="1.0" healthModifier="7.3" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_tank" count="5" spawnRate="8" healthModifier="4.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="15" spawnRate="0.4" healthModifier="14.3" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="15" spawnRate="0.4" healthModifier="14.3" path="WestPathToEastGate2" delayStart="0.2"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="15" spawnRate="0.6" healthModifier="9.8" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_bike" count="15" spawnRate="0.6" healthModifier="9.8" path="WestPathToEastGate2" delayStart="0.3"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="15" spawnRate="1.5" healthModifier="8.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.2" healthModifier="21.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="10" spawnRate="1.5" healthModifier="16.8" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="30" spawnRate="0.8" healthModifier="11.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_robot" count="1" spawnRate="0.5" healthModifier="4.1" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		  
+
+//4
+	  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.3" healthModifier="14.24" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="10" spawnRate="1.5" healthModifier="16.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>	  
+
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="30" spawnRate="0.5" healthModifier="19.9" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="10" spawnRate="2.0" healthModifier="14.4" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="0.4" healthModifier="27.0" path="WestPathToEastGate" delayStart="0.2"/>
+				<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="0.4" healthModifier="27.0" path="WestPathToEastGate2" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="20" spawnRate="1.5" healthModifier="16.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="50" spawnRate="0.15" healthModifier="21.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_plane" count="10" spawnRate="2.0" healthModifier="18.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.5" healthModifier="20" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_robot" count="3" spawnRate="5.0" healthModifier="2.2" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+
+//5	  
+
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="20" spawnRate="1.0" healthModifier="16.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="30" spawnRate="0.5" healthModifier="22.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.5" healthModifier="19.4" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.3" healthModifier="50.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="10" spawnRate="2.0" healthModifier="21.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_jeep" count="10" spawnRate="2.0" healthModifier="21.0" path="WestPathToEastGate2" delayStart="1.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="10" spawnRate="2.8" healthModifier="27.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="1.0" healthModifier="30.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.3" healthModifier="63.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_tank" count="9" spawnRate="3.0" healthModifier="6.75" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="5" spawnRate="2.0" healthModifier="76.75" path="WestPathToEastGate2" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="5">
+		<HorizontalStream enemyFile="unit_robot" count="4" spawnRate="8.0" healthModifier="3.7" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+	  
+//6	  
+
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="10" spawnRate="1.5" healthModifier="22.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="15" spawnRate="0.8" healthModifier="25.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="0.6" healthModifier="30.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>  
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="15" spawnRate="1.5" healthModifier="45.1" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="15" spawnRate="1.6" healthModifier="65.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_bike" count="15" spawnRate="1.6" healthModifier="65.0" path="WestPathToEastGate2" delayStart="0.8"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.3" healthModifier="30.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="15" spawnRate="1.0" healthModifier="37.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="0.8" healthModifier="30.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="15" spawnRate="1.2" healthModifier="31.6" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="15" spawnRate="1.2" healthModifier="31.6" path="WestPathToEastGate2" delayStart="0.6"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_robot" count="6" spawnRate="8.0" healthModifier="3.2" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>	  
+	  
+//7
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.6" healthModifier="52.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.3" healthModifier="76.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="30" spawnRate="0.8" healthModifier="55.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.3" healthModifier="38.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="2.8" healthModifier="38.6" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="2.8" healthModifier="38.6" path="WestPathToEastGate2" delayStart="1.4"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="30" spawnRate="0.6" healthModifier="76.4" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave> 
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_tank" count="10" spawnRate="3.0" healthModifier="10.67" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="15" spawnRate="1.2" healthModifier="49.5" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="15" spawnRate="1.2" healthModifier="49.5" path="WestPathToEastGate2" delayStart="0.6"/>
+	  </Wave>  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="0.6" healthModifier="49.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_robot" count="5" spawnRate="8.0" healthModifier="4.73" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+
+//8
+
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.6" healthModifier="98.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="15" spawnRate="0.5" healthModifier="66.23" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="10" spawnRate="0.5" healthModifier="66.23" path="WestPathToEastGate2" delayStart="0.5"/>
+	  </Wave> 
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="0.8" healthModifier="112.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.3" healthModifier="45.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="1.8" healthModifier="33.1" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="1.8" healthModifier="33.1" path="WestPathToEastGate2" delayStart="0.9"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="15" spawnRate="1.0" healthModifier="53.9" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_tank" count="3" spawnRate="1.0" healthModifier="19.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>	  
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.3" healthModifier="91.6" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="5" spawnRate="0.6" healthModifier="62.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="5">
+		<HorizontalStream enemyFile="unit_robot" count="3" spawnRate="1.0" healthModifier="5.83" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+
+//9
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="10" spawnRate="0.4" healthModifier="80.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_hazmat_soldier" count="10" spawnRate="0.4" healthModifier="80.0" path="WestPathToEastGate2" delayStart="0.4"/>
+	  </Wave>
+
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_soldier" count="20" spawnRate="0.5" healthModifier="119.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_bike" count="20" spawnRate="0.8" healthModifier="121.7" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_heavy_bike" count="20" spawnRate="0.3" healthModifier="56.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="3" spawnRate="7.2" healthModifier="72.0" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_chopper" count="2" spawnRate="7.2" healthModifier="72.0" path="WestPathToEastGate" delayStart="3.6"/>
+	  </Wave>
+//hard wave 50% more health
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_jeep" count="10" spawnRate="2.0" healthModifier="100.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_tank" count="5" spawnRate="1.0" healthModifier="21.4" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>	  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_light_soldier" count="20" spawnRate="0.3" healthModifier="85.8" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>  
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_chopper" count="10" spawnRate="0.95" healthModifier="50.0" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave>
+		<Wave resourceReward="0">
+		<HorizontalStream enemyFile="unit_robot" count="3" spawnRate="3.0" healthModifier="8.5" path="WestPathToEastGate" delayStart="0.0"/>
+				<HorizontalStream enemyFile="unit_blimp" count="1" spawnRate="3.0" healthModifier="6.5" path="WestPathToEastGate" delayStart="0.0"/>
+	  </Wave> 
+
+//10
+
+
+   </Waves>
+   
+<DifficultyModifiers>
+
+  <HardModifier startWave="11" endWave="100" healthModifier="0.90" difficulty="easy" />
+  <HardModifier startWave="11" endWave="100" healthModifier="0.95" difficulty="medium" />
+  <HardModifier startWave="11" endWave="100" healthModifier="0.99" difficulty="hard" />  
+
+</DifficultyModifiers>
+   
+   
+</Grasslands>
